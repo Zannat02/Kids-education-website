@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* share style */
+.display-flex{
+    display: flex;
+}
+
+.main{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.primary-btn{
+    height: 50px;
+    width: 197px;
+    background-color: #FEA301;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600 ;
+    border-radius: 12px;
+    border: none;
+    padding: 11px 58px;
+   
+}
+.orange{
+   color: #FEA301; 
+}
+.sky-blue{
+    color: #01ACFD;
+}
+.secondary-btn{
+    width: 197px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border: none;
+   font-weight: bold;
+   font-size: 1.25rem;
+   padding: 10px auto;
+}
+.bg-img{
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+}
+/* navbar style */
+h3{
+    font-weight: bold;
+    font-size: 2rem;
+}
+img{
+    width: 100%;
+}
+.header-section{
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.nav-bar{
+   justify-content: center; 
+   align-items: center;
+}
+
+.nav-item{
+    margin-right: 30px;
+    list-style: none;
+}
+
+.nav-links{
+    text-decoration: none;
+}
+.list-items{
+    margin-right: 187px;
+   
+}
+#h-1{
+  
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+#about{
+    
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+#facilities{
+    color: #05D4DF;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+#admission{
+    color: #5D58EF;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+/* bannar style */
+
+.bannar{
+    gap: 50px;
+}
+
+.bannar-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.bannar-title{
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.bannar-discription{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.bannar-image{
+    width: 100%;
+}
+/* curriculum-card */
+.curriculum-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    box-shadow: 0px 0px  28.3px rgba(0, 0, 0, 0.05); /*inner-shadow*/
+}
+
+.curriculum-img{
+    height: 141px;
+    width: 141px;
+    margin: 35px auto;
+}
+.curriculum-heading{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 2.87rem;
+}
+.curriculum-card{
+    text-align: center;
+}
+.curriculum-discription{
+   font-weight: 500;
+   font-size: 1rem;
+   margin-bottom: 30px;
+}
+
+#cd-1{
+    border: 1px solid #DEF5FF;
+    border-radius: 18px;
+    background: linear-gradient(to top, #ffffff, #DEF5FF ); /* gradient for inside*/
+    /* background: rgb(255,255,255);
+   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(140,202,255,1)100%); */
+}
+
+#cd-2{
+    border: 1px solid #FFF4DC;
+    border-radius: 18px; 
+    background: linear-gradient(to top, #ffffff, #FFF4DC );
+}
+#cd-3{
+    border: 1px solid #F2E8FF;
+    border-radius: 18px;
+    background: linear-gradient(to top, #ffffff, #F2E8FF );
+}
+.btn-card{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 55px;
+}
+#btn-1{
+    color: #64C8FF;
+
+}
+#btn-2{
+    color: #F0AA00;
+
+}
+#btn-3{
+    color: #8700FF;
+
+}
+.third-btn{
+    margin-top:60px;
+    text-align: center;
+    margin-bottom: 60px;
+   
+}
+.curriculum-btn{
+    border: none;
+    border-radius: 50%;
+    background-color: #FEA301;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
